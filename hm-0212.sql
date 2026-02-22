@@ -285,10 +285,6 @@ SELECT c.COUNTRY_NAME
  																									 		WHERE DEPARTMENT_ID IS NOT NULL))
 ;
 
-SELECT COUNTRY_NAME
-	FROM COUNTRIES
-;
-
 -- 62. 'Europe' 에서 근무중인 사원들의 모든 정보를 조회한다.
 SELECT e.EMPLOYEE_ID
      , e.FIRST_NAME
